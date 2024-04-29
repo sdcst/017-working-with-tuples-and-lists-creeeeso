@@ -21,7 +21,9 @@ example:
 Enter the index for an animal:2
 The animal at that index is Dog
 """
+animals = ["Cat", "FIsh", "Dog", "Bear", "Turtle"]
+animals.sort()
 
+x = int(input("Please enter a number> "))
 
-
-animals =
+print(animals[x])
