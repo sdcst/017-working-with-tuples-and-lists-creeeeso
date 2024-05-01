@@ -24,13 +24,13 @@ word not in list
 
 """
 
-fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-
-x = str(input("Please enter a word> "))
+fruit=["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+print(fruit)
+x=str(input("Enter a word from the list: "))
 if x in fruit:
-    z = fruit.count(x)
+    z=fruit.count(x)
     for i in range(z):
-        y = fruit.index(x)
+        y=fruit.index(x) 
         fruit.pop(y)
 else:
     print("word not in list")

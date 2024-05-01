@@ -23,7 +23,7 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
-nums = []
+nums=[]
 while -1 not in nums:
     nums.append(int(input("Enter an integer: ")))
 nums.sort()

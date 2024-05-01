@@ -24,11 +24,11 @@ Enter a word: virus
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
 
-x = 0
+x=0
 if x == 0:
-    list = []
-    for i in range(1 ,6):
-        a = str(input("Please enter a word> "))
-        list.append(a)
+    list=[]
+    for i in range(0,5):
+        y=str(input("Enter a word: "))
+        list.append(y)
     else:
-        print(list)
+        print("POG")
